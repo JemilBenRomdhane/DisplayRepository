@@ -1,0 +1,11 @@
+com\techlending\core\framework\security\SecurityComplienceProvider.class
+com\techlending\core\framework\shared\exception\ResourceNotFoundException.class
+com\techlending\core\framework\shared\bean\MGPagedResponse.class
+com\techlending\core\framework\shared\constants\AppConstants.class
+com\techlending\core\framework\shared\bean\UserSummary.class
+com\techlending\core\framework\security\provider\CustomJwtTokenProvider.class
+com\techlending\core\framework\shared\exception\BadRequestException.class
+com\techlending\core\framework\shared\exception\FunctionalControlException.class
+com\techlending\core\framework\shared\bean\JobExecutionResponse.class
+com\techlending\core\framework\shared\bean\PagedResponse.class
+com\techlending\core\framework\shared\bean\AbstractResponse.class

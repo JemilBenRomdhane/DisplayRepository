@@ -1,0 +1,1 @@
+cmd /k mvn build-helper:parse-version versions:set -DnewVersion=1.${parsedVersion.minorVersion}.${parsedVersion.nextIncrementalVersion} versions:commit
