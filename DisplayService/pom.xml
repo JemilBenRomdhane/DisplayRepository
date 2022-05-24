@@ -173,31 +173,10 @@
 					<!-- End additional Properties For Build Info    -->  
 					
 					
-					 <!-- Run our version calculation script   -->             
-			 <plugin>
-			        <groupId>org.apache.maven.plugins</groupId>
-			        <artifactId>maven-antrun-plugin</artifactId>
-			 				<version>3.0.0</version>
-			        <executions>
-			            <execution>
-			              <phase>install</phase>
-			                <configuration>
-			                    <target>
-			                                      <!--  You Need to Install maven .--> 
-			                        <exec dir="${project.basedir}" executable="ScriptShell.cmd"  failonerror="true">
-
-			                        </exec>
-			                    </target>
-			                </configuration>
-			                <goals>
-			                    <goal>run</goal>
-			                </goals>
-			       </execution>
-			   </executions>      
-			</plugin>
-			
-			 <!-- End version calculation script  --> 
+		
 		</plugins>
+		
+		<finalName>${project.artifactId}</finalName>
 	</build>
 
 </project>
